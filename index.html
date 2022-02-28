@@ -22,37 +22,56 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-nav">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">tinDog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Download</a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">TinDog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="">
+        <a class="navbar-brand" href="#">tinDog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              <a class="nav-link"href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
 
           </ul>
         </div>
-      </div>
-    </nav>
+        </div>
+
+    </nav> -->
+
 
 
 
     <!-- Title -->
-
+    <div class="container-fluid">
     <div class="row">
 
       <div class="col-lg-6">
@@ -128,7 +147,7 @@
   <!-- Press -->
 
   <section id="press">
-  
+
 
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
@@ -202,9 +221,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button class="download-button btn btn-lg btn-dark" type="button"><i class="fa-brands fa-apple"></i>Download</button>
+    <button class="download-button btn btn-lg btn-light" type="button"><i class="fa-brands fa-google-play"></i>Download</button>
 
   </section>
 
@@ -213,6 +232,10 @@
 
   <footer id="footer">
 
+    <i class="social-icon fa-brands fa-facebook"></i>
+    <i class="social-icon fa-brands fa-twitter-square"></i>
+    <i class="social-icon fa-brands fa-instagram-square"></i>
+    <i class="social-icon fa-solid fa-envelope"></i>
     <p>© Copyright TinDog</p>
 
   </footer>
